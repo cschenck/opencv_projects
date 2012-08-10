@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Helloworld", "OpenCV_Helloworld\OpenCV_Helloworld.vcxproj", "{C1269B67-AB58-47D2-A332-F2FCDF726B64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1269B67-AB58-47D2-A332-F2FCDF726B64}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1269B67-AB58-47D2-A332-F2FCDF726B64}.Debug|Win32.Build.0 = Debug|Win32
+		{C1269B67-AB58-47D2-A332-F2FCDF726B64}.Release|Win32.ActiveCfg = Release|Win32
+		{C1269B67-AB58-47D2-A332-F2FCDF726B64}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

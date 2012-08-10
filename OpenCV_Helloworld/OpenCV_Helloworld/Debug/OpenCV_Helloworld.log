@@ -1,0 +1,33 @@
+﻿Build started 8/9/2012 6:46:14 PM.
+     1>Project "C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\OpenCV_Helloworld\OpenCV_Helloworld.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\OpenCV_Helloworld.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\OpenCV_Helloworld.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenCV_Helloworld.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCV_Helloworld.cpp
+         OpenCV_Helloworld.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenCV_Helloworld.exe.embed.manifest.res" Debug\OpenCV_Helloworld_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.exe" /INCREMENTAL /NOLOGO cv210d.lib cxcore210d.lib highgui210d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCV_Helloworld.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.lib" /MACHINE:X86 Debug\OpenCV_Helloworld.exe.embed.manifest.res
+         Debug\OpenCV_Helloworld.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OpenCV_Helloworld.exe.embed.manifest" /manifest Debug\OpenCV_Helloworld.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenCV_Helloworld.exe.embed.manifest.res" Debug\OpenCV_Helloworld_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.exe" /INCREMENTAL /NOLOGO cv210d.lib cxcore210d.lib highgui210d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCV_Helloworld.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.lib" /MACHINE:X86 Debug\OpenCV_Helloworld.exe.embed.manifest.res
+         Debug\OpenCV_Helloworld.obj
+         Debug\stdafx.obj
+         OpenCV_Helloworld.vcxproj -> C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\Debug\OpenCV_Helloworld.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenCV_Helloworld.unsuccessfulbuild".
+         Touching "Debug\OpenCV_Helloworld.lastbuildstate".
+     1>Done Building Project "C:\Users\cschenck\Documents\programming\opencv_projects\OpenCV_Helloworld\OpenCV_Helloworld\OpenCV_Helloworld.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85
