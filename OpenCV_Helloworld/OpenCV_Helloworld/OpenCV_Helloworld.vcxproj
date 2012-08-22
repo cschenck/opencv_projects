@@ -83,11 +83,17 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="background_segmentation.h" />
+    <ClInclude Include="my_utils.h" />
+    <ClInclude Include="optical_flow.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="background_segmentation.cpp" />
+    <ClCompile Include="my_utils.cpp" />
     <ClCompile Include="OpenCV_Helloworld.cpp" />
+    <ClCompile Include="optical_flow.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
